@@ -1,0 +1,13 @@
+{
+    "input_dim": 22,
+    "latent_dim": 10,
+    "intermediate_dim": 32,
+    "epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "adam",
+    "loss": "mse",
+    "reconstruction_loss_weight": 1000,
+    "kl_loss_weight": 1,
+    "validation_split": 0.2
+}

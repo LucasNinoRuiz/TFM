@@ -1,0 +1,15 @@
+{
+    "input_dim": 8,
+    "latent_dim": 100,
+    "generator_intermediate_dim": 128,
+    "generator_output_dim": 8,
+    "discriminator_intermediate_dim": 128,
+    "leaky_relu_alpha": 0.2,
+    "dropout_rate": 0.3,
+    "optimizer": "adam",
+    "loss": "binary_crossentropy",
+    "epochs": 200,
+    "batch_size": 32,
+    "learning_rate": 0.0002,
+    "beta_1": 0.5
+}
